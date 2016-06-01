@@ -1,0 +1,8 @@
+package Ex49_Inheritance;
+
+public class food {
+	public void eat(){
+		System.out.println("I am the eat methods");
+	}
+
+}

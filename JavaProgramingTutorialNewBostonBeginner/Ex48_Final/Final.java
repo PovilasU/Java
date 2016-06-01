@@ -1,0 +1,16 @@
+package Ex48_Final;
+
+public class Final {
+
+	public static void main(String[] args) {
+		tuna tunaObject = new tuna(10);
+		
+		for(int i =0; i<5; i++){
+			tunaObject.add();
+			System.out.printf("%s", tunaObject);			
+			
+		}
+
+	}
+
+}

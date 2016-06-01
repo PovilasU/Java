@@ -1,0 +1,15 @@
+package Ex56_PolymorphicArguements;
+
+public class PolymorphicArguements {
+
+	public static void main(String[] args) {
+		fatty bucky = new fatty();
+		food fo = new food();
+		food po = new potpie();
+		
+		bucky.digest(fo);
+		bucky.digest(po);
+
+	}
+
+}
